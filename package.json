@@ -15,14 +15,7 @@
   "author": "The Tree-Sitter C# Team",
   "license": "MIT",
   "dependencies": {
-    "nan": "^2.14.0"
-  },
-  "devDependencies": {
-    "tree-sitter-cli": "^0.20.0"
-  },
-  "scripts": {
-    "test": "tree-sitter test && script/update-file-sizes && script/parse-examples",
-    "test-windows": "tree-sitter test"
+    "tree-sitter": "^2.14.0"
   },
   "tree-sitter": [
     {
